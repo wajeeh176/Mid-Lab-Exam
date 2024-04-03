@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#text1{
+    margin-top: 100px;
+    font-size: xx-large;
+    color: orangered
+}
+
+#text2{
+    font-family: "lato", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    background-image: linear-gradient(to right, red, orange);
+    background-clip: text;
+    color: transparent;
+}
+
+#about {
+    background-color: #f9f9f9;
+}
+
+#main-program {
+    background-color: #333;
+    color: white;
+    background-image: url("wp8529160.png");
+    background-size: 20%;
+}
+
+#main-program h2 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#main-program .pbox {
+    display: inline-block;
+    width: 100px; 
+    height: 100px; 
+    font-weight: 300;
+    
+    background-color: gray;
+    color: orangered;
+    text-align: center;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+    line-height: 100px; 
+}
+
+
+#musk{
+    height: 300px;
+}
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section#about {
+    background-color: #f9f9f9;
+    height: 100vh;
+    background-image: url("mobile_intro_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+}
+
+section#speakers {
+    background-color: #eee;
+}
+
+section#speakers ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+section#speakers ul li {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+section#schedule {
+    background-color: #f9f9f9;
+}
+
+section#schedule table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+section#schedule table th, section#schedule table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+section#schedule table th {
+    background-color: #333;
+    color: white;
+}
+
+section#location {
+    background-color: #eee;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section#speakers ul li {
+        width: 100%;
+    }
+}
